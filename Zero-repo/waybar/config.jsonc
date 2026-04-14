@@ -1,0 +1,27 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "modules-center": ["clock"],
+    "modules-right": ["temperature", "custom/copy", "custom/paste", "custom/kill"],
+
+    "clock": { "format": "%H:%M" },
+    "temperature": { "format": "{temperatureC}°C" },
+
+    "custom/copy": {
+        "format": " [COPY] ",
+        "on-click": "wl-paste -p | wl-copy",
+        "tooltip": false
+    },
+
+    "custom/paste": {
+        "format": " [PASTE] ",
+        "on-click": "wtype -M ctrl v",
+        "tooltip": false
+    },
+
+    "custom/kill": {
+        "format": " [X] ",
+        "on-click": "hyprctl dispatch killactive"
+    }
+}

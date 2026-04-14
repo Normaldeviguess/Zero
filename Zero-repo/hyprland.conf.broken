@@ -1,0 +1,32 @@
+# --- MINIMAL VALID CONFIG ---
+monitor=,preferred,auto,auto
+
+input {
+    kb_layout = us
+    follow_mouse = 1
+    touchpad {
+        natural_scroll = no
+        tap-to-click = true
+    }
+}
+
+general {
+    gaps_in = 5
+    gaps_out = 20
+    border_size = 2
+    col.active_border = rgba(33ccffee)
+    col.inactive_border = rgba(595959aa)
+}
+
+decoration {
+    rounding = 10
+}
+
+animations {
+    enabled = yes
+}
+
+$mainMod = SUPER
+bind = $mainMod, Q, exec, kitty
+bind = $mainMod, C, killactive
+bind = $mainMod, Escape, exec, killall -9 $(hyprctl activewindow -j | jq -r ".class")

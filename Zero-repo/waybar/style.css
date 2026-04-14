@@ -1,0 +1,57 @@
+window#waybar {
+    background: rgba(20, 20, 20, 0.9);
+    border-bottom: 2px solid #0078d7;
+    color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
+}
+
+#custom-close, #custom-minimize, #custom-maximize {
+    padding: 0 15px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+#custom-close {
+    color: #ff5555;
+}
+
+#custom-close:hover {
+    background-color: #e81123;
+    color: white;
+}
+
+#custom-minimize:hover, #custom-maximize:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#clock {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+#custom-cube {
+    color: #f9e2af;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#custom-cube {
+    color: #f9e2af;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#custom-cube {
+    color: #f9e2af;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#temperature {
+    color: #f9e2af;
+    padding-right: 10px;
+}
+
+#temperature.critical {
+    color: #f38ba8;
+}

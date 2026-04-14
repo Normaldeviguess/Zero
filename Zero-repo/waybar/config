@@ -1,0 +1,25 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["temperature", "custom/copy", "custom/paste", "custom/cube", "custom/kill"],
+
+    "temperature": { "format": "{temperatureC}°C" },
+
+    "custom/copy": {
+        "format": " [Copy] ",
+        "on-click": "wl-copy $(hyprctl activewindow -j | jq -r '.title')",
+        "tooltip": "Copies active window title (Dev Shortcut)"
+    },
+
+    "custom/paste": {
+        "format": " [Paste] ",
+        "on-click": "wtype -M ctrl v",
+        "tooltip": false
+    },
+
+    "custom/cube": { "format": " [Cube] ", "on-click": "hyprctl dispatch fullscreen 1" },
+    "custom/kill": { "format": " [X] ", "on-click": "hyprctl dispatch killactive" }
+}
