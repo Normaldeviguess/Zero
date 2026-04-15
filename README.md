@@ -6,4 +6,5 @@ idle temp: 39
 idle ram: 700mb
 idle gpu: 150mhz
 idle irqs: 4-0
+
 (it might not be exacly like this on your pc but its gonna be about close)
