@@ -16,7 +16,8 @@ codes stat: · Shell 47.9% + Python 34.4% + CSS 17.7%
 
 (it might not be exacly like this on your pc but its gonna be about close)
 
-#WARNINGS!!
+# WARNINGS!!
+
 its NOT fully stable. and add it on top of hyprland. if it bricks or wataver your pc it wont be my problem
 and there wont be any auto installs apps. you must asembel it yourself!
 its like an glass cannon. dont stress test it by spamming keybinds.
