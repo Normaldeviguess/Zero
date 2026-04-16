@@ -21,3 +21,13 @@ codes stat: · Shell 47.9% + Python 34.4% + CSS 17.7%
 its NOT fully stable. and add it on top of hyprland. if it bricks or wataver your pc it wont be my problem
 and there wont be any auto installs apps. you must asembel it yourself!
 its like an glass cannon. dont stress test it by spamming keybinds.
+
+# instructions install
+
+1. install hyprland (sudo pacman -S hyprland)
+2. install waybar (sudo pacman -S waybar)
+3. install kitty/foot (sudo pacman -S kitty or sudo pacman -S foot)
+4. install wofi (sudo pacman -S wofi)
+5. install any browser (like firefox)
+6. install pcmanfm (sudo pacman -S pcmanfm)
+7. install geany (sudo pacman -S geany)
