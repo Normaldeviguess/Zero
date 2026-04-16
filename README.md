@@ -4,9 +4,9 @@ first you must have arch and maybe work on others but isnt recomanded. and for a
 # Stats
 idle temp: 39
 
-idle ram: 700mb
+idle ram: 700mb (including the os and etc on my build. it might be lower then that or sligtly higher)
 
-idle gpu: 150mhz
+idle gpu: 0-100mhz
 
 idle irqs: 4-0
 
