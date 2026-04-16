@@ -10,5 +10,7 @@ idle gpu: 0-100mhz
 
 idle irqs: 4-0
 
+codes stat: · Shell 47.9% + Python 34.4% + CSS 17.7%
+
 
 (it might not be exacly like this on your pc but its gonna be about close)
