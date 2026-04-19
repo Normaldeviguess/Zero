@@ -1,9 +1,9 @@
 # Zero
-an VERY Modified version of hyprland which it looks pretty alright and usable. and super space is for wofi and super n is for shutdown and super m is for log out! its an semi stable version. 
+an extremly riched version of hyprland which it looks pretty alright and usable. and super space is for wofi and super n is for shutdown and super m is for log out! its an semi stable version. 
 first you must have arch and maybe work on others but isnt recomanded. and for app starters you need to install yourself on another de in arch is an terminal like kitty or if you want lightness then try foot. thats all abt you would need at start!
 (also you shood intregrate it on top of HYPERLAND THIS SHOOD BEEN AT TOP!!!)
 # Stats
-idle temp: 39
+idle temp: 39 (on an thinkpad t420 slim)
 
 idle ram: 700mb (including the os and etc on my build. it might be lower then that or sligtly higher)
 
